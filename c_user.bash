@@ -1,6 +1,6 @@
 #!/bin/bash
 #Matías VILLAGRÁN 3ºBB Nocturno
-#Name SUM
+#Name SUM v1.01
 echo "Creación de usuarios"
 echo "1) Crear usuario por defecto"
 echo "2) Crear usuario personalizado"
