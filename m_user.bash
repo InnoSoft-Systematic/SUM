@@ -1,6 +1,6 @@
 #!/bin/bash
 #Matías VILLAGRÁN 3ºBB Nocturno
-#Name SUM
+#Name SUM v1.01
 
 function menu () {
 echo "Menu de edicion de usuarios"
