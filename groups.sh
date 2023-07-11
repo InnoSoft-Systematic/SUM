@@ -1,7 +1,9 @@
 #!/bin/bash
 #Matías VILLAGRÁN 3ºBB Nocturno
+#SUM v1.02
+#
 function menu () {
-echo "Menú"
+echo "GESTION DE GRUPOS"
 echo "1) Ver grupos primarios (GID)"
 echo "2) Ver grupos secundarios de un GID"
 echo "3) Cambiar grupo temporal (Grupo efectivo)"
@@ -12,7 +14,7 @@ echo "7) Eliminar un grupo"
 echo "8) Grupos pertenecientes a usuario"
 echo "9) Añadir usuario a grupo"
 echo "10) Eliminar usuario de grupo"
-echo "0) Salir"
+echo "0) Volver"
 }
 menu
 read op
@@ -63,6 +65,6 @@ case $op in
 		echo "Escribe nombre de grupo"
 		read gpo
 		usermod -G $gpo $gdd;;
-	0)exit
+	0)./SUM.sh;;
 
 esac
