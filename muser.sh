@@ -75,5 +75,5 @@ case $op in
 		usermod -g $grupo $nom
 		grep $nom /etc/passwd
 		;;
-	0) exit;;
+	0) ./SUM.sh;;
 esac	
