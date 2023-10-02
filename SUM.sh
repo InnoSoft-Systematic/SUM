@@ -7,7 +7,8 @@ echo "1) Ingresar usuario"
 echo "2) Modificar usuario"
 echo "3) Eliminar usuario"
 echo "4) Gestionar grupos"
-echo "5) Acerca de"
+echo "5) Red"
+echo "6) Acerca de"
 echo "0) Salir"
 read op
 
@@ -31,8 +32,9 @@ case $op in
 	2)./muser.sh;;
 	3)./ruser.sh;;
 	4)./groups.sh;;
-	5)about;;
-	6)exit;;
+	5)./red.sh;;
+	6)about;;
+	0)exit;;
 esac
 
 
