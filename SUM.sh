@@ -9,7 +9,8 @@ echo "3) Eliminar usuario"
 echo "4) Gestionar grupos"
 echo "5) Red"
 echo "6) Backup"
-echo "7) Acerca de"
+echo "7) Log"
+echo "8) Acerca de"
 echo "0) Salir"
 read op
 
@@ -35,7 +36,8 @@ case $op in
 	4)./groups.sh;;
 	5)./red.sh;;
 	6)./copy.sh;;
-	7)about;;
+	7)./log.sh;;
+	8)about;;
 	0)exit;;
 esac
 

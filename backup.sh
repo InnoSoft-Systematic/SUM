@@ -4,7 +4,7 @@
 #
 tar -cf /etc/passwd /etc/shadow | rsync -avh -e ssh --progress - user@hostdeservidorRESPALDO:/home/backup
 
-tar -cf /etc/netwrok | rsync -avh -e ssh --progress - user@hostdeservidorRESPALDO:/home/backup
+tar -cf /etc/network | rsync -avh -e ssh --progress - user@hostdeservidorRESPALDO:/home/backup
 
 tar -cf /etc/mysql/my.cnf | rsync -avh -e ssh --progress - user@hostdeservidorRESPALDO:/home/backup
 
@@ -14,3 +14,5 @@ tar -cf /var/log/syslog /var/log/auth.log | rsync -avh -e ssh --progress - user@
 
 tar -cf /var/lib/mysql | rsync -avh -e ssh --progress - user@hostdeservidorRESPALDO:/home/b
 ackup
+
+
