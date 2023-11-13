@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SUM v1.0.2
+#SUM v1.5-beta
 
 echo "1) Eliminar usuario"
 echo "2) Eliminar usuario y su directorio"
