@@ -1,5 +1,5 @@
 #!/bin/bash
-#SUM v1.02 - Innosoft Systematic
+#SUM v1.5-beta - Innosoft Systematic
 #
 #Menú inicial para el llamado de los scripts
 echo "/**···¡Bienvenido a SUM!···**/"
