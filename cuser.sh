@@ -1,7 +1,7 @@
 #!/bin/bash
 #Matías VILLAGRÁN 3ºBB Nocturno
 #GRUPO HELLFIRE
-#SUM V1.02 (Se agrega opción de modificar esqueleto)
+#SUM V1.5-beta
 
 echo "Creación de usuarios"
 echo "1) Crear usuario por defecto"
