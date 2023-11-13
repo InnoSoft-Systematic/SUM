@@ -1,6 +1,6 @@
 #!/bin/bash
 #Matías VILLAGRÁN 3ºBB Nocturno
-#SUM v1.02
+#SUM v1.5-beta
 #
 function menu () {
 echo "GESTION DE GRUPOS"
